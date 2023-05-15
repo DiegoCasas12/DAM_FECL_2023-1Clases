@@ -143,4 +143,13 @@
         app:layout_constraintTop_toTopOf="@+id/textView8"
         app:srcCompat="@drawable/mensaje_x" />
 
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Carreras"
+        app:layout_constraintStart_toStartOf="@+id/editTextDate"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
